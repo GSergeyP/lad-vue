@@ -1,0 +1,15 @@
+@import '../../assets/scss/themeColors.scss';
+
+.main {
+  margin: 0;
+  padding: 0;
+  background-color: var(--dynamic-background-color);
+  font-size: 35px;
+  font-weight: 900;
+  text-align: center;
+}
+p {
+  margin: 0;
+  padding: 0;
+  color: var(--dynamic-title-color);
+}

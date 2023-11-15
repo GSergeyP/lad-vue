@@ -1,0 +1,31 @@
+@import '../../assets/scss/themeColors.scss';
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 150px;
+  background-color: var(--dynamic-color);
+  font-size: 35px;
+  font-weight: 900;
+}
+button {
+  padding: 2vw 4vw;
+  background-color: var(--dynamic-button-color);
+  color: var(--dynamic-title-color);
+  border-radius: 1vw;
+  border: none;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  font-size: 25px;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  color: var(--dynamic-title-color);
+}

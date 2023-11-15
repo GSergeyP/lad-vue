@@ -1,0 +1,1 @@
+export type TUserTheme = 'light' | 'dark';
