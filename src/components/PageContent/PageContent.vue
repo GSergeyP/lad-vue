@@ -1,25 +1,21 @@
 <template>
   <main class="main">
-    <div v-if="device == 'Mobile'">
-      <PageContentMobile />
-    </div>
-    <div v-else-if="device == 'Tablet'">
-      <PageContentTablet />
-    </div>
-    <div v-else>
-      <PageContentDesktop />
-    </div>
+    <PageContainer
+      :is-full-width="device[0].device === 'mobile' ? true : false"
+      :width="device[0].deviceWidth"
+    >
+      <slot name="breadcrumbs"></slot>
+      <h3>{{ $route.meta.title }}</h3>
+      <slot></slot>
+    </PageContainer>
   </main>
 </template>
 
 <script setup lang="ts">
-import { toRefs } from 'vue';
-import PageContentMobile from '@/components/PageContent/PageContent.mobile.vue';
-import PageContentTablet from '@/components/PageContent/PageContent.tablet.vue';
-import PageContentDesktop from '@/components/PageContent/PageContent.desktop.vue';
+import PageContainer from '@/components/PageContainer/PageContainer.vue';
+import { useMedia } from '@/composables/useMedia';
 
-const props = defineProps<{ device: string }>();
-const { device } = toRefs(props);
+const { device } = useMedia();
 </script>
 
 <style lang="scss" src="@/components/PageContent/PageContent.style.scss" scoped />

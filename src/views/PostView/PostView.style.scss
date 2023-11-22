@@ -1,0 +1,12 @@
+.post-wrapper {
+  flex-grow: 1;
+  font-size: var(--title-fs);
+}
+.post-container {
+  font-size: var(--post-fs);
+  text-align: justify;
+  padding: 0 2rem;
+}
+h3 {
+  font-size: var(--h3-fs);
+}

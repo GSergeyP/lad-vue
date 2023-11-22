@@ -1,16 +1,10 @@
-@import '../../assets/scss/themeColors.scss';
-
 .footer {
   margin: 0;
   padding: 0;
   height: 50px;
   background-color: var(--dynamic-color);
-  font-size: 35px;
-  font-weight: 900;
-  text-align: center;
-}
-p {
-  margin: 0;
-  padding: 0;
   color: var(--dynamic-title-color);
+  font-size: var(--title-fs);
+  font-weight: var(--bold-weight);
+  text-align: center;
 }

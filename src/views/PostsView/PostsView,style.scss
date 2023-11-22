@@ -1,0 +1,15 @@
+.posts-container {
+  flex-grow: 1;
+  font-size: var(--title-fs);
+  padding: 2rem;
+}
+.posts {
+  font-size: var(--post-fs);
+  list-style-type: none;
+  text-align: left;
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+  &:hover {
+    color: var(--dynamic-color);
+  }
+}

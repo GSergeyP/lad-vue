@@ -1,1 +1,0 @@
-<template><p>Header Tablet</p></template>
