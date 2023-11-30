@@ -1,0 +1,14 @@
+[
+  {
+    "src" : "http://localhost:5173/lad-vue/img/slider1.png",
+    "alt" : "alt"
+  },
+  {
+    "src" : "http://localhost:5173/lad-vue/img/slider2.png",
+    "alt" : "alt"
+  },
+  {
+    "src" : "http://localhost:5173/lad-vue/img/slider3.png",
+    "alt" : "alt"
+  }
+]

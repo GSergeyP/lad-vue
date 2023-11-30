@@ -1,0 +1,36 @@
+:root {
+  //colors
+  --primary: #000000;
+  --secondary: #ffffff;
+  --tertiary: #f63765;
+  --quaternary: #0d0d0d;
+  --fivefold: #aca7a7;
+
+  @font-face {
+    font-family: 'Stapel';
+    src:
+      url('../fonts/Stapel-Bold.ttf') format('truetype'),
+      url('../fonts/Stapel-Bold.woff') format('woff'),
+      url('../fonts/Stapel-Bold.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Raleway';
+    src:
+      url('../fonts/Ralewaythin.ttf') format('truetype'),
+      url('../fonts/Ralewaythin.woff') format('woff'),
+      url('../fonts/Ralewaythin.woff2') format('woff2');
+  }
+}
+html {
+  font-size: calc(1vw / 10.24);
+}
+@media screen and (max-width: 700px) {
+  html {
+    font-size: calc(1vw / 3.2);
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+}

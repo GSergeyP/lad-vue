@@ -1,0 +1,17 @@
+.item-0,
+.item-2 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 60% 60%;
+  height: 180rem;
+  @media (max-width: 700px) {
+    background-position: 65% 60%;
+    height: 200rem;
+  }
+}
+.item-1 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350rem;
+  background-position: 65% 60%;
+}

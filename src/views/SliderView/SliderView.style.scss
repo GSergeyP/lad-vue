@@ -1,0 +1,20 @@
+.item-h1 {
+  display: inline-block;
+  position: absolute;
+  font-family: 'Stapel';
+  color: var(--primary);
+  @media (min-width: 900px) {
+    display: none;
+  }
+  @media (max-width: 900px) {
+    top: -9rem;
+    left: 111.5rem;
+    font-size: 40rem;
+  }
+  @media (max-width: 700px) {
+    top: 4rem;
+    left: 15rem;
+    font-size: 30rem;
+  }
+  z-index: 10;
+}
